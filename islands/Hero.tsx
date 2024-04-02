@@ -48,7 +48,12 @@ export default function Hero() {
         </animated.div>
       </div>
       <div class="h-[440vh] bg-[#040200]">
-        <animated.div class="text-stone-100 text-[9.95vw] fixed leading-none top-[-1vw] opacity-80">
+        <img
+          src="/space.jpg"
+          alt="Outer space, far above the world. Planet earth is blue and there's nothing we can do."
+          class="fixed"
+        />
+        <animated.div class="text-stone-100 text-[9.95vw] fixed leading-none top-[-1vw]">
           2001: A Space Odyssey
         </animated.div>
         <animated.div
@@ -109,15 +114,15 @@ export default function Hero() {
         >
         </animated.div>
       </div>
-      <div class="min-h-[500vh]  relative">
+      <div class="relative">
         <div
-          class="h-[25vh] mt-[-25vh]"
+          class="h-[50vh] mt-[-50vh]"
           style={{
-            background: "linear-gradient(to top, #040200, rgba(0,0,0,0) 80%)",
+            background:
+              "linear-gradient(to top, rgba(13,13,13,1) 25%, rgba(13,13,13,0) 100%)",
           }}
         >
         </div>
-        <div class="pt-10 bg-[#040200] min-h-[450vh]">Hola!</div>
       </div>
     </>
   );
